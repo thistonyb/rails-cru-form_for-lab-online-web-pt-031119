@@ -10,3 +10,4 @@ class CreateArtists < ActiveRecord::Migration[5.0]
     end
   end
 end
+rails g migration change_post_status_data_type_to_posts post_status:string --no-test-framework
